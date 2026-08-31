@@ -1,0 +1,20 @@
+# Raw / intermediate sequencing data (large, reproducible from scripts/01_download_sra.sh)
+data/*.fastq.gz
+data/*.fastq
+data/*.sra
+
+# Nextflow pipeline outputs and internals
+results/viralrecon/
+work/
+.nextflow/
+.nextflow.log*
+QC_Reports/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS / editor
+.DS_Store
+*.swp
