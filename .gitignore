@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Raw / intermediate sequencing data (large, reproducible from scripts/01_download_sra.sh)
 data/*.fastq.gz
 data/*.fastq
@@ -18,3 +19,9 @@ QC_Reports/
 # OS / editor
 .DS_Store
 *.swp
+=======
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+>>>>>>> master
