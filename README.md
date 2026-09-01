@@ -127,11 +127,11 @@ The distribution of read depth (DP) across the five analyzed samples was visuali
 
 #### Read Depth by Sample — Log10 Scale
 
-![Read depth per sample](results/plots/DP_per_Chromosome_log10.png)
+![Read depth per sample](results/plots/DP_per_Sample_log10.png)
 
 #### Read Depth by Sample — Boxplot
 
-![Read depth per sample](results/plots/DP_per_Chromosome_boxplot.png)
+![Read depth per sample](results/plots/DP_per_Sample_boxplot.png)
 
 ### Read Depth
 
