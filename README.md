@@ -121,6 +121,18 @@ A total of **153 variants** were identified across the five analyzed samples.
 | SRR13500958 | 21 |
 | **Total** | **153** |
 
+### Read-Depth Visualization
+
+The distribution of read depth (DP) across the five analyzed samples was visualized using boxplots and a log10-transformed scale to better represent the wide range of sequencing depth.
+
+#### Read Depth by Sample — Log10 Scale
+
+![Read depth per sample](results/plots/DP_per_Chromosome_log10.png)
+
+#### Read Depth by Sample — Boxplot
+
+![Read depth per sample](results/plots/DP_per_Chromosome_boxplot.png)
+
 ### Read Depth
 
 Across all 153 called variants:
