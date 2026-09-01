@@ -56,11 +56,11 @@ ggplot(var_tb, aes(x = SAMPLE, y = DP)) +
   geom_point() +
   scale_y_log10()
 
-# DP per chromosome, faceted by sample, with violin + boxplot overlay
+# DP distribution across the SARS-CoV-2 reference, faceted by sample
 p_DP_CHROM <- ggplot(var_tb, aes(x = CHROM, y = DP, fill = SAMPLE)) +
   ylim(0, 10000) +
   scale_fill_brewer(palette = "RdYlBu") +
-  labs(title = "DP per Chromosome") +
+  labs(title = "Read Depth per Sample") +
   theme(legend.position = "bottom")
 
 p_DP_CHROM +
